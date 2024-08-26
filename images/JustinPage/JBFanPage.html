@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Love for Justin Bieber</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Justin Bieber Fan Page</h1>
+            <nav>
+                <a href="#hero">Home</a>
+                <a href="#gallery">Gallery</a>
+                <a href="#qa">Q&A</a>
+                <a href="#comments">Comments</a>
+            </nav>
+        </div>
+    </header>
+    <section id="hero" class="hero">
+        <div class="container">
+            <h2>Why I Love Justin Bieber</h2>
+            <p>Justin Bieber's talent and charisma have captured the hearts of many. From his early hits to his latest tracks, his music continues to inspire and entertain. This page is dedicated to celebrating his amazing journey.</p>
+        </div>
+    </section>
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <h2>Gallery</h2>
+            <div class="gallery-grid">
+                <img src="justin1.jpg" alt="Justin Bieber 1">
+                <img src="justin2.jpg" alt="Justin Bieber 2">
+                <img src="justin3.jpg" alt="Justin Bieber 3">
+                <img src="justin4.jpg" alt="Justin Bieber 4">
+                <img src="justin5.jpg" alt="Justin Bieber 5">
+                <img src="justin6.jpg" alt="Justin Bieber 6">
+            </div>
+        </div>
+    </section>
+    <section id="qa" class="qa">
+        <div class="container">
+            <h2>Interactive Q&A</h2>
+            <div class="qa-item">
+                <h3>Who discovered Justin Bieber?</h3>
+                <div class="qa-options">
+                    <label><input type="radio" name="q1" value="Scooter Braun"> Scooter Braun</label>
+                    <label><input type="radio" name="q1" value="Usher"> Usher</label>
+                    <label><input type="radio" name="q1" value="Justin Timberlake"> Justin Timberlake</label>
+                    <label><input type="radio" name="q1" value="Eminem"> Eminem</label>
+                </div>
+                <button class="qa-submit" data-correct="Scooter Braun">Submit</button>
+                <p class="qa-feedback"></p>
+            </div>
+            <div class="qa-item">
+                <h3>What is Justin Bieber's first album?</h3>
+                <div class="qa-options">
+                    <label><input type="radio" name="q2" value="My World"> My World</label>
+                    <label><input type="radio" name="q2" value="Purpose"> Purpose</label>
+                    <label><input type="radio" name="q2" value="Believe"> Believe</label>
+                    <label><input type="radio" name="q2" value="Journals"> Journals</label>
+                </div>
+                <button class="qa-submit" data-correct="My World">Submit</button>
+                <p class="qa-feedback"></p>
+            </div>
+            <div class="qa-item">
+                <h3>How many Grammy Awards has Justin Bieber won?</h3>
+                <div class="qa-options">
+                    <label><input type="radio" name="q3" value="2"> 2</label>
+                    <label><input type="radio" name="q3" value="4"> 4</label>
+                    <label><input type="radio" name="q3" value="6"> 6</label>
+                    <label><input type="radio" name="q3" value="8"> 8</label>
+                </div>
+                <button class="qa-submit" data-correct="2">Submit</button>
+                <p class="qa-feedback"></p>
+            </div>
+        </div>
+    </section>
+    <section id="comments" class="comments">
+        <div class="container">
+            <h2>Fan Comments</h2>
+            <div id="comment-section">
+                <!-- Comments will be added here dynamically -->
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 My Justin Bieber Fan Page. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
